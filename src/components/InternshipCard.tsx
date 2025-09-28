@@ -19,7 +19,7 @@ export function InternshipCard({ internship, showMatchScore, matchScore }: Inter
 
   const handleApplyNow = () => {
     // Redirect to PM Internship Scheme website
-    window.open("https://www.pminternship.gov.in/", "_blank");
+    window.open("https://pminternship.mca.gov.in/", "_blank");
   };
 
   const handleSave = () => {
