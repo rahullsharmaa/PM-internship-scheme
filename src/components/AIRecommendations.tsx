@@ -12,7 +12,7 @@ interface AIRecommendationsProps {
 
 export function AIRecommendations({ recommendations, onClose }: AIRecommendationsProps) {
   const handleApplyNow = () => {
-    window.open("https://www.pminternship.gov.in/", "_blank");
+    window.open("https://pminternship.mca.gov.in/", "_blank");
   };
 
   return (
